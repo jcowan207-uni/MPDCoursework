@@ -1,0 +1,10 @@
+<resources> <!-- this file announces all the names of the strings used in the project, including the API key -->
+    <string name="app_name">Traffic Scotland</string>
+    <string name="title_roadworks">Road Works</string>
+    <string name="title_CurrentIncidents">Current Incidents</string>
+    <string name="title_PlannedRw">Planned Roadworks</string>
+    <string name="title_maps">Map Overview</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="filter_by_road">Filter by road</string>
+    <string name="maps_api">AIzaSyC9fWyANWPG57Z0wbbCdaaqLqZHtJ7gd4I</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- contains fragment details and access locations of all fragments for this application -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_CurrentIncidents">
+
+    <fragment
+        android:id="@+id/navigation_CurrentIncidents"
+        android:name="com.example.courseworktest1.ui.CurrentIncidents.CurrentIncidentsFragment"
+        android:label="@string/title_CurrentIncidents"
+        tools:layout="@layout/fragment_current_incidents" />
+
+    <fragment
+        android:id="@+id/navigation_roadworks"
+        android:name="com.example.courseworktest1.ui.RoadWorks.RoadworksFragment"
+        android:label="@string/title_roadworks"
+        tools:layout="@layout/fragment_roadworks" />
+    <fragment
+        android:id="@+id/navigation_PlannedRw"
+        android:name="com.example.courseworktest1.ui.PlannedRW.PlanRwFragment"
+        android:label="@string/title_PlannedRw"
+        tools:layout="@layout/fragment_planned_rw" />
+    <fragment
+        android:id="@+id/navigation_maps"
+        android:name="com.example.courseworktest1.ui.maps.mapsFragment"
+        android:label="@string/title_maps"
+        tools:layout="@layout/fragment_map" />
+
+</navigation>

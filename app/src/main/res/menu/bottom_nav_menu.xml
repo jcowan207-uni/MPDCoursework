@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- for config of the bottom nav menu -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_CurrentIncidents"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_CurrentIncidents" />
+    <item
+        android:id="@+id/navigation_roadworks"
+        android:icon="@drawable/ic_airport_shuttle_black_24dp"
+        android:title="@string/title_roadworks" />
+    <item
+        android:id="@+id/navigation_PlannedRw"
+        android:icon="@drawable/ic_send_black_24dp"
+        android:title="@string/title_PlannedRw" />
+    <item
+        android:id="@+id/navigation_maps"
+        android:icon="@drawable/ic_map_black_24dp"
+        android:title="@string/title_maps" />
+
+</menu>
