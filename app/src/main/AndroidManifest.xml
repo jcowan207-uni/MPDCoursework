@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--Joshua Cowan S1823790-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.courseworktest1">
     <!-- The 3 permissions below allow for internet access on the device -->

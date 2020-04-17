@@ -1,4 +1,4 @@
-<resources> <!-- this file announces all the names of the strings used in the project, including the API key -->
+<resources> <!-- this file announces all the names of the strings used in the project, including the API key --> <!--Joshua Cowan S1823790-->
     <string name="app_name">Traffic Scotland</string>
     <string name="title_roadworks">Road Works</string>
     <string name="title_CurrentIncidents">Current Incidents</string>
