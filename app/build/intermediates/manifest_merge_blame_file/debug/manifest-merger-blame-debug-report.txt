@@ -1,0 +1,111 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.courseworktest1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml
+10    <!-- The 3 permissions below allow for internet access on the device -->
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE " /> <!-- This permission access' the device's internet state, and detects if there is a stable connection -->
+12-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:6:5-7:67
+12-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:7:9-64
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- This allows for permission to be asked from the application to allow the use of location services on the device -->
+13-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:8:5-9:65
+13-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:9:9-63
+14
+15    <uses-feature
+15-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:11:5-13:34
+16        android:glEsVersion="0x00020000"
+16-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:12:9-41
+17        android:required="true" />
+17-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:13:9-32
+18
+19    <!-- Include required permissions for Google Maps API to run. -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\System User\.gradle\caches\transforms-2\files-2.1\a9ed8aaed483b33b1021fe1efd2e7709\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\System User\.gradle\caches\transforms-2\files-2.1\a9ed8aaed483b33b1021fe1efd2e7709\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+21
+22    <application
+22-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:15:5-41:19
+23        android:allowBackup="true"
+23-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:16:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.2.0] C:\Users\System User\.gradle\caches\transforms-2\files-2.1\da2d7a943cb079388b6be8ac2f95d587\core-1.2.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:17:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:18:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:19:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:20:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme" >
+31-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:21:9-40
+32        <meta-data
+32-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:22:9-24:48
+33            android:name="com.google.android.geo.API_KEY"
+33-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:23:13-58
+34            android:value="@string/maps_api" /> <!-- This is the API key that the app uses to connect to google maps -->
+34-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:24:13-45
+35        <meta-data
+35-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:25:9-27:68
+36            android:name="com.google.android.gms.version"
+36-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:26:13-58
+37            android:value="@integer/google_play_services_version" /> <!-- This accesses the google version attached to the device -->
+37-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:27:13-66
+38        <uses-library
+38-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:28:9-30:39
+39            android:name="org.apache.http.legacy"
+39-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:29:13-50
+40            android:required="false" />
+40-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:30:13-37
+41
+42        <activity
+42-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:31:9-40:20
+43            android:name="com.example.courseworktest1.MainActivity"
+43-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:32:13-41
+44            android:label="@string/app_name" > <!-- This defines the name of the application -->
+44-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:33:13-45
+45
+46            <intent-filter>
+46-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:35:13-39:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:36:17-69
+47-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:36:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:38:17-77
+49-->C:\Users\System User\AndroidStudioProjects\CourseworkTest12\app\src\main\AndroidManifest.xml:38:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\System User\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+53            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+53-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\System User\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+54            android:exported="false"
+54-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\System User\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+55            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+55-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\System User\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+56
+57        <provider
+57-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\System User\.gradle\caches\transforms-2\files-2.1\090434a1b2305b2572c380a8c896bb3c\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+58            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\System User\.gradle\caches\transforms-2\files-2.1\090434a1b2305b2572c380a8c896bb3c\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+59            android:authorities="com.example.courseworktest1.lifecycle-process"
+59-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\System User\.gradle\caches\transforms-2\files-2.1\090434a1b2305b2572c380a8c896bb3c\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+60            android:exported="false"
+60-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\System User\.gradle\caches\transforms-2\files-2.1\090434a1b2305b2572c380a8c896bb3c\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+61            android:multiprocess="true" />
+61-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\System User\.gradle\caches\transforms-2\files-2.1\090434a1b2305b2572c380a8c896bb3c\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+62    </application>
+63
+64</manifest>
